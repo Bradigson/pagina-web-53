@@ -1,0 +1,144 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+.sesion1{
+    background:url(../imgs/layered-waves-haikei.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    top:-20px;
+    
+    
+}
+#time{
+    color:#eee;
+    font-size:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:1px 6px  3px rgba(0,0,0,.4);
+    
+}
+.clokctime{
+    background:rgba(238, 238, 238, 0.52);
+    backdrop-filter: blur(7px);
+    border-radius:15px;
+    width:50%;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:400px;
+    margin-top:120px;
+    position:absolute;
+}
+
+@keyframes neo{
+  0%{
+
+    transform: translatex(1190px);
+  }
+      
+}
+        
+
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8{
+    width:100px;
+    height:100px;
+    position: absolute;
+    border-radius:20em;
+    background:#fff;
+
+    box-shadow:0 0 5px #2db2ff,
+    0 0 15px #2db2ff,
+    0 0 30px #2db2ff,
+    0 0 60px #2db2ff;
+    animation-name:neo;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+
+}
+.s2{
+
+    margin-top:130px;
+    background:#fff;
+    box-shadow:0 0 5px #2dff2d,
+    0 0 15px #2dff2d,
+    0 0 30px #2dff2d,
+    0 0 60px #2dff2d;
+    animation-timing-function:linear;
+}
+.s3{
+
+    margin-top:250px;
+    background:#fff;
+    box-shadow:0 0 5px #ffea2d,
+    0 0 15px #ffea2d,
+    0 0 30px #ffea2d,
+    0 0 60px #ffea2d;
+    animation-timing-function:ease-in;
+
+}
+
+.s4{
+
+    margin-top:380px;
+    background:#eee;
+    box-shadow:0 0 5px red,
+    0 0 15px red,
+    0 0 30px red,
+    0 0 60px red;
+    animation-timing-function:ease-in-out;
+
+}
+
+.s5{
+
+    margin-left:150px;
+    margin-top:130px;
+    background:#fff;
+    box-shadow:0 0 5px #ff2dc0,
+    0 0 15px #ff2dc0,
+    0 0 30px #ff2dc0,
+    0 0 60px #ff2dc0;
+    animation-timing-function:ease-out;
+
+}
+.s6{
+
+    margin-left:150px;
+    margin-top:250px;
+    background:#fff;
+    box-shadow:0 0 5px #2df8ff,
+    0 0 15px #2df8ff,
+    0 0 30px #2df8ff,
+    0 0 60px #2df8ff;
+    animation-timing-function:ease;
+    animation-duration:6s;
+
+}
+.s7{
+
+    margin-left:150px;
+    margin-top:380px;
+    background:#eee;
+    box-shadow:0 0 5px #ff9d00,
+    0 0 15px #ff9d00,
+    0 0 30px #ff9d00,
+    0 0 60px #ff9d00;
+    animation-timing-function:linear;
+    animation-duration:9s;
+}
+.s8{
+
+    margin-top:500px;
+    background:#fff;
+    box-shadow:0 0 5px #90908c,
+    0 0 15px #90908c,
+    0 0 30px #90908c,
+    0 0 60px #90908c;
+    animation-timing-function:ease-in;
+    animation-duration:12s;
+}
